@@ -127,7 +127,7 @@ def triangle_upside_down(r):
     for j in range(r):
         for k in range(j+1):
             print(' ', end='')
-        for k in range(r-(j)):
+        for k in range(r-j):
             print(k+1, end='')
         print()
 
